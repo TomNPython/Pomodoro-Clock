@@ -1,0 +1,46 @@
+body {
+  background-color: #49C98F;
+  color: #2E4D3F
+}
+
+button {
+  background-color: #76F5BC;
+  margin: 5px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+#title {
+  text-align: center;
+}
+
+.inner-container {
+  display: grid;
+  border: 1px solid;
+  grid-template-columns: auto auto
+}
+
+.inner-box {
+  border: 1px solid;
+  text-align: center;
+  padding: 5px;
+}
+
+#timer {
+  padding-top: 10px;
+  font-size: 40px;
+}
+
+#pause {
+  display: none
+}
+
+#restart {
+  display: none
+}
+
+#display-timer {
+  background-color: #2A8759;
+  padding: 5px 15px;
+  border-radius: 50px;
+}
